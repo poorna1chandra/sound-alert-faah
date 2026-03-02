@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "icon": "icon.png",
+  "icon": "icon.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/poorna1chandra/sound-alert-faah"
