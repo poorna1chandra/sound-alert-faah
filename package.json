@@ -1,0 +1,33 @@
+{
+  "name": "sound-alert-yooo",
+  "displayName": "sound-alert-yooo",
+  "description": "Plays a sound whenever a code error is detected",
+  "version": "0.1.0",
+  "publisher": "g-poorna",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poorna1chandra/sound-alert-faah"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "*"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
+}
